@@ -1,0 +1,87 @@
+.header{
+    height: 100vh;
+    background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    display: relative;
+
+    &__container{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 53%;
+        left: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__img{
+        display: block;
+        width: 230px;
+        height: 80%;
+        border-radius: 40%;
+        box-shadow: 5rem 2rem 4rem rgb(277 135 255 / 25%),
+        0px 5rem 4rem rgb(255 219 57 / 30%),
+        5rem 2rem 4rem rgb(118 255 255 / 30%),
+        0 0 2pt 4pt rgb(255 255 255 / 60%);
+        align-items: center;
+        border-width: 3rem;
+
+        // @media only screen and (max-width: 56.25em){
+        //     width: 200px;
+        //     height: 60%;
+        // } 
+
+        // @media only screen and (max-width: 37.5em){
+        //     width: 180px;
+        //     height: 40%;
+        // }
+        
+    }
+
+    &__title{
+        text-align: center;
+        margin-top: 1rem;
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: 0 .8rem 3.2rem 0 rgb(31 38 135 / 12%);
+        backdrop-filter: blur(7px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        display: inline-block;
+        padding: 1rem 2rem;
+        color: #212529;
+        animation: title 3s ease-in-out infinite;
+        margin-top: 2rem;
+    }
+
+    &__main-title{
+        text-align: center;
+        font-weight: 600;
+        font-size: 7rem;
+        color: #f2f6f9;
+
+        @media only screen and (max-width: 56.25em){
+            font-size: 5.5rem;
+            font-weight: 500;
+        }
+
+        @media only screen and (max-width: 37.5em){
+            font-size: 4.5rem;
+            font-weight: 500;
+        }
+
+        
+    }
+
+    &__paragraph{
+        font-size: 2.5rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+        color: #f2f6f9;
+        align-items: center;
+        // margin-left: -3.5rem;
+        opacity: 60%;
+    }
+}
+

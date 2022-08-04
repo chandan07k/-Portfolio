@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/_main.scss">
+    <script  defer type= 'module' src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header" id = 'header'>
+        <!-- nav bar -->
+        <div class = 'navbar'>
+        <nav class="nav">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav__item--1">
+                <a  class = 'nav__link--1 link-1' href="#header">Chandan</a>
+            </div>
+            <ul class="nav__list hidden">
+                <li class = 'nav__item'><a href = '#service' class = 'nav__link link-1'>Services</a></li>
+                <li class = 'nav__item'><a href="#project" class = 'nav__link link-1'>Projects</a></li>
+                <li class = 'nav__item'><a href="#about" class = 'nav__link link-1'>About me</a></li>   
+                <li class = 'nav__item'><a href="#contact" class = 'nav__link link-1'>contact</a></li>
+            </ul>
+            <!-- <div class = 'nav__item--3 hidden'>
+                <a href="#" class = 'nav__link link'>Work request</a>
+                <svg class = 'nav__icon'>
+                    <use xlink:href=" img/sprite.svg#icon-chevron-small-right"></use>
+                </svg>
+            </div> -->
+        </nav>
+        </div>
+
+        <!-- Photo -->
+     <div class="header__main">
+        <div class="header__container">
+           <img src="img/headerphoto.jpg" alt="Animated image" class="header__img">
+           <h2 class="header__title">Hi! I am chandan 👋</h2>
+           <h1 class="header__main-title">Front-end Developer</h1>
+           <h3 class="header__paragraph">Based in Karnataka, India.</h3>
+        </div>
+     </div>
+</header>
+
+<!-- service section -->
+<section class="section__service" id = 'service'> 
+    <div class="section__service--1">
+        <h3 class = 'section__service--title'>My Services</h3>
+        <h1 class = 'section__service--main-title'>The most creative intuitive workmate.</h1>
+    </div>
+    <div class="section__service--2">
+        <div class="section__service-block">
+            <img src="img/section-img.jpg" alt="section photo" class = 'section__service-img'>
+            <svg class="section__service-icon section__service-icon--1">
+                <use xlink:href="img/sprite.svg#icon-javascript"></use>
+            </svg>
+            <svg class="section__service-icon section__service-icon--2">
+                <use xlink:href="img/sprite.svg#icon-css3"></use>
+            </svg>
+            <svg class="section__service-icon section__service-icon--3">
+                <use xlink:href="img/sprite.svg#icon-html5"></use>
+            </svg>
+            <svg class="section__service-icon section__service-icon--4">
+                <use xlink:href="img/sprite.svg#icon-sass"></use>
+            </svg>
+        </div>
+        <div class="section__service-developer">
+            <h2 class="section__service-main--heading">Developer Skills</h2>
+            <!-- <h2 class = 'section__service-main--title'>Skills</h2> -->
+            <p class = 'section__service-paragraph'>A great knowledge of HTML / CSS, Javascript. I make responsive applications with Sass (css pre-prosessor).</p>
+        </div>
+    </div>
+</section> 
+
+<!-- Project section -->
+<section class="section__project" id = 'project'>
+    <div class="section__project--1">
+        <h3 class = 'section__project--title'>My Projects</h3>
+        <h1 class = 'section__project--main-title'>A selection of my projects.</h1>
+    </div>
+    <div class="section__project--2">
+         <div class="section__project--2-1">
+            <a href = 'https://mapty-chandan.netlify.app/'>
+            <img src="img/mapty.jpg" alt="project-1" class = 'section__project-img'>
+        </a>
+        <h2 class = 'section__project--2-secondary-heading'>
+            <a class = 'a_link' href = 'https://mapty-chandan.netlify.app/'>Mapty-web-application</a>
+        </h2>
+         </div>
+         <div class="section__project--2-1">
+            <a href = 'https://bankist-webapp-chandan.netlify.app/'>
+            <img src="img/bankist.jpg" alt="project-1" class = 'section__project-img'>
+            
+        </a>
+        <h2 class = 'section__project--2-secondary-heading'>
+            <h2 class = 'section__project--2-secondary-heading'>
+                <a class = 'a_link'href = 'https://bankist-webapp-chandan.netlify.app/'>Bankist-web-application</a>
+            </h2>
+        </h2>
+         </div>
+         <div class="section__project--2-1">
+            <a href = 'https://advance-dom-chandan.netlify.app/'>
+            <img src="img/advanced-dom.png" alt="project-1" class = 'section__project-img'>
+        </a>
+        <h2 class = 'section__project--2-secondary-heading'>
+            <h2 class = 'section__project--2-secondary-heading'>
+                <a class = 'a_link' href = 'https://advance-dom-chandan.netlify.app/'>advanced-DOM-web-application</a>
+            </h2>
+        </h2>
+         </div>
+    </div>
+</section>
+
+<!-- About me section -->
+
+<section class="section__about" id = 'about'>
+    <div class="section__about--1">
+        <h3 class = 'section__about--title'>About me</h3>
+        <h1 class = 'section__about--main-title'>Welcome to my world.</h1>
+    </div>
+    <div class="section__about--2">
+         <div class="section__about--2-education section__about--main">
+            <h2 class="section__about--2-education-heading">Education</h2>
+            <p class="section__about--2-education-paragraph">Certified Front-End Developer by Frontend experts workshops in 2022.</p>
+         </div>
+         <div class="section__about--2-music section__about--main">
+            <h2 class="section__about--2-music-heading">Music & Games</h2>
+            <p class="section__about--2-music-paragraph">Guitarist and worshiper in my freetime. I also enjoy playing videogames as a hobby.</p>
+         </div>
+    </div>
+    <h1 class = 'section__about-last'>Multitalented. Intuitive. Dedicated.</h1>
+
+</section>
+
+<!-- contact and footer section -->
+<section class="section__contact " id= contact>
+    <div class="section__contact-container">
+        <h1 class="section__contact-heading">Let's work together!</h1>
+        <a href="#" class="section__contact-button contact-btn">Contact me </a>
+    </div>
+
+    <footer class="section__contact-footer  footer">
+        <h3 class="section__contact-footer-heading1">&copy;2022 Chandan</h3>
+        <h3 class="section__contact-footer-heading2">Front-end Developer</h3>
+        <ul class="section__contact-footer-heading3">
+            <li class = 'nav__item-footer'><a href = 'https://github.com/chandan07k' class="nav__link-footer">Github</a></li>
+            <li class = 'nav__item-footer'><a href = '#' class="nav__link-footer email__1">Email</a></li>
+            <li class = 'nav__item-footer'><a href = 'https://www.linkedin.com/in/chandan-k-1b364b191/' class="nav__link-footer">Linkedin</a></li>
+        </ul>
+
+        <div class = 'email__container'>
+            <h3 class = 'email work__hidden'>chandanchandu1243@gmail.com</h3>
+        </div>
+    </footer>
+</section>
+<!-- 
+<div class="work__request hidden">
+    <div class="work__request-body">
+        <div class="work__request-body--btn  btn-close">&Cross;</div>
+        <img src="img/headerphoto.jpg" alt="" class="work__request-body--photo">
+        <h2 class="work__request-body--gmail">chandanchandu1243@gmail.com</h2>
+        <div class="work__request-body--icons">
+           <svg class="work__request-icon1 work__request-icon">
+            <use xlink:href = 'img/sprite.svg#icon-linkedin'></use>
+           </svg>
+           <svg class="work__request-icon2 work__request-icon">
+            <use xlink:href = 'img/sprite.svg#icon-gmail'></use>
+           </svg>
+           <svg class="work__request-icon3 work__request-icon">
+            <use xlink:href = 'img/sprite.svg#icon-gmail'></use>
+           </svg>
+        </div>
+    </div>
+    <div class="work__request-overlay"></div>
+</div> -->
+
+</body>
+</html>
